@@ -1,0 +1,32 @@
+# Node
+node_modules/
+functions/node_modules/
+functions/lib/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+firestore-debug.log
+pubsub-debug.log
+
+# Environment
+.env
+.env.local
+functions/.env
+
+# Xcode
+ios/Ebuddy/Ebuddy.xcodeproj/xcuserdata/
+ios/Ebuddy/Ebuddy.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Firebase config (user must provide their own)
+ios/Ebuddy/Ebuddy/GoogleService-Info.plist
+
+# macOS
+.DS_Store
+*.swp
+*~
